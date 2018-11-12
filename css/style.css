@@ -1,0 +1,138 @@
+body {
+	 text-align: center;
+	 color: #fff;
+}
+
+.main-header {
+	margin-bottom: 10px;
+	padding: 10px;
+	background: white;
+}
+.main-header:hover {
+	background: #ACE0DD;
+	color: white;
+
+	
+}
+.nav-bar {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display:  grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+
+/* SHOWCASE SECTION */
+
+.showcase {
+	margin-bottom: 20px;
+	padding: 300px; 
+	background:pink;
+	background-repeat: no-repeat;
+	background-image: url(../images/batanes.jpg);
+	background-size: cover;
+	box-shadow: 0 0 5px #2a84d1;
+	font: 40px;
+	
+}
+.showcase:hover {
+	background-image: url(../images/showcase.jpg);
+	background-size: cover;
+}
+.showcase h1 {
+	font-size: 70px;
+	color: black;
+}
+	
+.button {
+	padding: 10px 25px;
+	background: #FBC1AD;
+	color: white;
+}
+.button:hover {
+	background: pink;
+}
+a {
+	text-decoration: none;
+}
+
+	/* MAIN-ARTICLE SECTION*/
+
+
+.main-article {
+	
+	margin-bottom: 10px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 2fr 1fr;
+}
+
+
+/*MAIN ARTICLE LEFT */
+.main-article-left {
+	background: #F56E4A;
+	padding: 90px;
+	box-shadow: 0 0 10px black;
+	grid-template-columns: 1fr 1fr;
+	display:grid;
+	
+	
+}
+
+.main-article-left p {
+	margin: 40px 0 60px 0;
+	font-size: 25px;
+	
+}
+
+.Whytravel? h3 {
+	margin-top: 20px;
+
+	
+	
+}
+
+
+/*MAIN ARTICLE RIGHT */
+
+.main-article-right {
+	padding: 80px;
+	background: #4F766F;
+	box-shadow: 0 0 15px black;
+	display:grid;
+	grid-template-columns:1fr;
+}
+
+.Quote-For-The-Day h1 {
+	margin-top: 10px;
+
+
+}
+.main-article-right p{
+	color:black;
+	font-family: Verdana;
+	margin: 20px 5 40px 5;
+	
+}
+/* FOOTER SECTION */
+
+.footer {
+	padding: 25px;
+	background: orange;
+	margin-bottom: 10px;
+	font-size: 10px;
+}
+.footer:hover {
+	background: #5fadd6;
+}
+
+#main-menu {
+	margin: 0;
+	padding: 2px;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 15px;
+	gid-template-columns: repeat (4,1fr);
